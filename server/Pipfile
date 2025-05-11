@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+django-oauth-toolkit = "*"
+django-cors-headers = "*"
+django-redis = "*"
+postgres = "*"
+psycopg2-binary = "*"
+django-two-factor-auth = {extras = ["phonenumbers"], version = "*"}
+django-otp = "*"
+qrcode = "*"
+pyjwt = "*"
+python-memcached = "*"
+django-storages = {extras = ["boto3"], version = "*"}
+pymemcache = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

@@ -1,0 +1,3 @@
+/.vscode
+/Manage_services/.env
+/Manage_services/nginx_service/crtf/*
